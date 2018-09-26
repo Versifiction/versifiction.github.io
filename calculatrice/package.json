@@ -1,0 +1,41 @@
+{
+  "name": "react-modele",
+  "version": "0.1.0",
+  "description": "Point de départ des projets React",
+  "main": "index.js",
+  "repository": "git@github.com:O-clock-Hyperspace/React-modele.git",
+  "author": "Jean-Denis Vauguet <jd@vauguet.fr>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "autoprefixer": "^8.6.2",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.8.1",
+    "postcss-modules": "^1.1.0",
+    "react-dom": "^16.4.0",
+    "stylint": "^1.5.9",
+    "stylus": "^0.54.5"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.5",
+    "jquery": "^3.3.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-icons": "^2.2.7",
+    "react-redux": "^5.0.7",
+    "reactstrap": "^6.3.1",
+    "redux": "^4.0.0",
+    "socket.io-client": "^2.1.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "clean": "rm -rf .cache dist",
+    "watch": "yarn clean && yarn start"
+  }
+}
